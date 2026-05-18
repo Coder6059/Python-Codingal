@@ -1,5 +1,4 @@
-dict = {"Codingal" : 2, "is": 3, "the": 4, "best":3, "for": 5, "coding": 1}
-print("the original dictionary", dict)
+dict = {'Codingal': 2, 'is':3, 'the': 3, 'best':3, 'for':3, 'coding':1}
 
 v = 3
 count = 0
