@@ -54,7 +54,7 @@ textY = 10
 
 over_font = pygame.font.Font('freesansbold.ttf', 64)
 
-def show score(x, y):
+def show_score(x, y):
     score = font.render("Score : " + str(score_value), True, (255, 255, 255))
     screen.blit(score, (x, y))
 
@@ -65,8 +65,8 @@ def game_over_text():
 def player(x, y):
     screen.blit(playerImg, (x, y))
 
-    def enemy(x, y, i):
-        screen.blit(enemyImg[i], (x, y))
+def enemy(x, y, i):
+    screen.blit(enemyImg[i], (x, y))
 
 def fire_bullet(x, y):
     global bullet_state
